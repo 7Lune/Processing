@@ -1,5 +1,3 @@
-//缝缝补补
-
 import processing.sound.*;
 
 SoundFile sample;
@@ -31,10 +29,10 @@ public void draw() {
   y = y + yspeed;
 
   if ((x > width) || (x < 0)) {
-    xspeed = xspeed * -1;
+    xspeed = xspeed * -1.2;
   }
   if ((y > height) || (y < 0)) {
-    yspeed = yspeed * -1;
+    yspeed = yspeed * -1.2;
   }
 
   sum += (rms.analyze() - sum) * smoothingFactor;
@@ -51,4 +49,3 @@ public void draw() {
     ellipse(x, y, rms_scaled*i, rms_scaled*i);
   }
 }
-
