@@ -1,3 +1,5 @@
+//缝缝补补
+
 import processing.sound.*;
 
 SoundFile sample;
