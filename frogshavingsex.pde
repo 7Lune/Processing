@@ -1,3 +1,6 @@
+//缝缝补补的代码
+//请配合data中的frogshavingsex.mp3使用
+
 import processing.sound.*;
 
 SoundFile sample;
